@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import UnexpectedAlertPresentException
 
 #Creating excel Sheet for logging data
-os.chdir('c:\\Users\\Vinit\\Documents')
+os.chdir('c:\\Users\\<username>\\Documents')
 
 startRoll = 10020
 endRoll = 10101
