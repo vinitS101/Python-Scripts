@@ -1,10 +1,17 @@
 #Script for sending raids in the browser game www.travian.com
-#The script uses pyautogui instead of selenium, etc so as to avoid bot detection by the game
-#Make sure not to run the script at set intervals as that pattern can be detected
+#
+# The script uses pyautogui instead of selenium, etc so as to avoid bot detection by the game
+# Make sure not to run the script at set intervals (for example by looping the whole thing) as that pattern can be detected
+#
+# If not already logged in, refer to the login script to know how to do it and just add it here after making necessary changes
+#
+# Vary Sleep Times Depending on the speed of your internet allowing for the page to load before executing actions.
+# The delays in actions mimic a Human so as to not get detected by the Game.
+#
+#The Coordinates are for  1920x1080 resolution, should be changed to suit the host system
 
 import pyautogui, webbrowser, time
 
-#If not already logged in, refer to the login script to know how to do it and just add it here.
 #Open tab for farmlist. (Change URL depending on your game server and domain.)
 webbrowser.open('https://ts4.travian.com.au/build.php?tt=99&id=39')
 
@@ -14,7 +21,6 @@ time.sleep(6)
 pyautogui.moveTo(1911,1006, duration = 0.5)
 
 i = 1
-
 while (i<=37):
 	pyautogui.click()
 	time.sleep(0.8)
@@ -31,7 +37,6 @@ time.sleep(3.5)
 
 #move to the rest of the farmlists that have to be sent and repeat.
 i = 1
-
 while (i<=4):
 	pyautogui.moveTo(1913, 110, duraion = 0.5)     #move to scroll and click to get to next FL
 	pyautogui.click()
