@@ -1,2 +1,3 @@
-# pyScriptsCollection
-Mostly simple Python Scripts that are useful on a daily basis to automate some simple tasks.
+# Python Scripts
+
+Simple Python Scripts made as a side project for personal use.
