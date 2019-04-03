@@ -1,3 +1,4 @@
+# Small script to automate Youtube searches.
 import webbrowser, sys
 
 sys.argv

@@ -1,5 +1,5 @@
-#A script to automatically login to the BIT Placement portal.
-#Can be used as a reference to create auto login scripts for other websites
+# A script to automatically login to the BIT Placement portal.
+# Can be used as a reference to create login scripts for other websites
 import webbrowser, time
 from selenium import webdriver
 

@@ -1,3 +1,4 @@
+# Small script to automate google searches
 import webbrowser, sys
 
 sys.argv
